@@ -216,17 +216,16 @@ library(ggmap,quietly=T)
 #To make this work, you need a free API key from Google
 #Use this link: https://console.developers.google.com/apis/api/static_maps_backend?project=_
 #Register for a free API key for the "Maps Static API"; enter it on the two lines below
-#register_google(key = 'AIzaSyC6slPslzzsYiOYe0ANfpBhWpIisdcAg6I')
-#register_google(key = 'AIzaSyB0ehcZEbpw8Su6rOzCKIax22puMg4LbCA')
-#gmap2=get_map(location=c(lon=6.6, lat=46.7), zoom=9, maptype='satellite', api_key = 'AIzaSyC6slPslzzsYiOYe0ANfpBhWpIisdcAg6I')
+#[redacted]
+#gmap2=get_map(location=c(lon=6.6, lat=46.7), zoom=9, maptype='satellite', api_key = redacted)
 #saveRDS(gmap2, file = 'swissmap_google')
 #gmap2_bw = get_map(location=c(lon=6.6, lat=46.7), zoom=9, maptype='satellite', color = 'bw',
-                  # api_key = 'AIzaSyC6slPslzzsYiOYe0ANfpBhWpIisdcAg6I')
+                  # api_key = redacted)
 #saveRDS(gmap2_bw, '/Users/jeremyspater/Dropbox/duke/political economy core/weber/replication_files/my version/swissmapBW.RDS')
 #gmap2 = readRDS('/Users/jeremyspater/Dropbox/duke/political economy core/weber/replication_files/my version/swissmapBW.RDS')
 #plot(gmap2)
 #gmap3_bw = get_map(location=c(lon= 6.73 , lat=46.6), zoom=9, maptype='satellite', color = 'bw',
-                    #api_key = 'AIzaSyC6slPslzzsYiOYe0ANfpBhWpIisdcAg6I')
+                    #api_key = redacted)
 #saveRDS(gmap3_bw, '/Users/jeremyspater/Dropbox/duke/political economy core/weber/replication_files/my version/swissmapBW_centered.RDS')
 gmap2 = readRDS('./swissmapBW_centered.RDS')
 
