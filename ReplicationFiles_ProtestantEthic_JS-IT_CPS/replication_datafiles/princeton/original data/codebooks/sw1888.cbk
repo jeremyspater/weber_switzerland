@@ -1,0 +1,67 @@
+Switzerland 1888 Variable Descriptions 
+
+ v# NAME           LOCATION  #DEC.  DESCRIPTION                                
+ -- ------------   --------  -----  ----------------------------------         
+  4 IF               1- 10       3  Index of total fertility                   
+  5 IG              11- 20       3  Index of marital fertility                 
+  6 IH              21- 30       3  Index of unmarried fertility               
+  7 IM              31- 40       3  Ratio of the index of marital fertility    
+                                       to index of total fertility             
+  8 PROTES          41- 50       3  % Protestant                               
+  9 CATHOL          51- 60       3  % Catholic                                 
+ 10 SINGLE24        61- 70       3  % women aged 20-24 who are single          
+ 11 SINGLE49        71- 80       3  % women aged 45-49 who are single          
+ 12 MAGRIC          81- 90       3  Proportion male labor force in agriculture      
+ 13 MIND            91-100       3  Proportion male labor force in industry         
+ 14 MCOMM          101-110       3  Proportion male labor force in trade
+ 15 MTRANSP        111-120       3  Proportion male labor force in transportation   
+ 16 MADMIN         121-130       3  Proportion male labor force in public service  
+ 17 TAGRIC         131-140       3  Proportion total labor force in             
+                                       agriculture                             
+ 18 TIND           141-150       3  Proportion total labor force in industry   
+ 19 TCOMM          151-160       3  Proportion total labor force in trade
+ 20 TTRANSP        161-170       3  Proportion total labor force in            
+                                       transportation                          
+ 21 TADMIN         171-180       3  Proportion total labor force in            
+                                       public service            
+ 22 INFMORT        181-190       3  Infant Mortality Rate                      
+ 23 WAGRIC         191-200       3  Proportion agricultural labor force female
+ 24 WIND           201-210       3  Proportion female in industrial LF 
+ 25 WCOMM          211-220       3  Proportion female in trade LF
+ 26 WTRANSP        221-230       3  Proportion female in transportation LF
+ 27 WADMIN         231-240       3  Proportion female in public service LF 
+ 28 WOLABFOR       241-250       3  Proportion women in total labor force            
+ 29 GERMAN         251-260       3  % German                        
+ 30 FRENCH         261-270       3  % French                        
+ 31 ITALIAN        271-280       3  % Italian                       
+ 32 ROMANS         281-290       3  % Romansh 
+ 33 PROPTOT        291-300       3  Proportion married F/married M
+ 34 GRADE1         301-310       3  Prop. high grade in draftees' exam
+ 35 GRADE5         311-320       3  Propr. low grade in draftees' exma             
+ 36 USCHOOL        321-330       3  Prop. draftees with > primary educ.                                         
+</list
+<p><em>Note: </em> These education levels are not
+comparable to those in 1870, due to a change in grading system.  The
+figures are an average for the years 1887, 1888, and 1889.
+</p> <listing>
+ 37 LOWALT         331-340       3  % living below 500 metres altitude           
+ 38 ALT500         341-350       3  % living at 500-999 metres altitude          
+ 39 ALT1000        351-360       3  % living at 1000+ metres altitude            
+ 40 DECLIM01       361-370       3  Year of decline in IMR by 10%               
+ 41 DECLIM05       371-380       3  Year of decline in IMR by 50%               
+ 42 DECLIM00       381-390       3  Year of decline in IMR to .100           
+ 43 DECLIG10       391-400       3  Year of decline in Ig by 10%               
+ 44 DECLIG6        401-410       3  Yr of decline in Ig to .600             
+ 45 SEXRATIO       411-420       3  Sex ratio (M/F)                            
+ 46 BORNCOM        421-430       3  Proportion living in commune of birth       
+ 47 BORNFOR        431-440       3  Proportion born in foreign country         
+ 48 LABEL          441-450          District label 
+    Canton key     452-453          Unique key for canton
+    Dist. key      454-455          Unique key for district
+    Canton         457-465          Canton Name
+    District       466-480          District Name
+                                                                               
+                                                                               
+(11-17-83)                            -2-                                      
+ Revised 4-94 B. Vaughan
+

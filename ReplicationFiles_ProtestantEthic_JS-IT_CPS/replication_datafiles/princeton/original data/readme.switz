@@ -1,0 +1,131 @@
+Princeton European Fertility Decline Project
+********************************************
+Switzerland Socio-Economic Variables, 1870-1930
+***********************************************
+
+History of the Data
+===================
+
+Francine Vanderwalle compiled socio-economic data for Switzerland for
+the census years 1870, 1888, 1910 and 1930. The data are contained in
+separate data files; some variables are available at only one point in time,
+while others exist for all years. The main source for the data was 
+Statistique de la Suisse. The data are aggregated by canton and district,
+with a label to identify the canton and district. These internal labels,
+unfortunately were different for each year. The total number of districts
+was 181 in 1870. In 1888, one new district was added in Canton 15 (App
+Ar), bringing the total to 182. In 1910, 5 new districts were added in
+Canton 11 (Solothurn), bringing the total to 187. In 1930, four districts
+were dropped: one in Canton 12 (Basel); one in Canton 17 (St. Gall);
+and two in Canton 25 (Geneve), reducing the total to 183. Variables may
+not be comparable in these districts in the affected years.
+
+In 1983, Susan Watkins and Beverly Harris converted the data into ascii
+format, put it on tape, and created codebooks for the data, as well as a
+list of common variables and a key to match the labels in the data to the
+cantons and districts. They also contacted Francine Vanderwalle for
+clarification of the meanings of some variables. All of the documentation
+was added to the tape along with the data. Beverly Harris passed along a
+folder of notes to Barbara Vaughan when she left OPR. 
+
+In 1994, Barbara Vaughan moved the data from tape to the OPR Unix
+archive. She noticed a major problem with the key to identify the
+cantons and districts: Two of the years (1870 and 1930) seemed to have
+district labels that were not unique. After examining the data, she
+determined that in 1930, the internal labels in the data were unique, but
+did not match the key in the documentation. Fortunately, all four data
+files had a series of variables that were supposed to be identical (the
+years that Ig and infant mortality reached certain levels). Using the two
+years that did have accurately described and unique labels, she attached
+these variables to the key and then matched the other two years to these
+variables in order to determine the canton and district. To avoid the need
+to use the printed key at all, she added a unique 4-digit label (taken from
+the key listing), as well as the name of the canton and district, to the end
+of the data records.
+
+Some editing of the codebooks was also done at this time; for instance,
+the altitude variables were previously labelled as "feet" although
+Francine Vanderwalle's notes indicated that they were metres. Also,
+there were some obvious errors in the list of canton and district names,
+which were corrected from Francine's notes.
+
+Contents of the Data
+====================
+
+The four indices of fertility (If, Ig, Ih, and Im) are available for all four
+years, as well as infant mortality and the proportion of women single at
+age 20-24 and age 45-49. Proportions belonging to major language
+groups and religions are available for all years. Variables measuring the
+education level of draftees are available through 1910, as are the
+proportions living at various altitudes, which was found to be correlated
+to fertility trends. Most years have comparable variables showing the
+breakdown of the labor force by sector, and female labor force
+participation. The 1910 data set has variables obtained from a special
+1905 "census of enterprises".
+
+All of the variables (except those added by Barbara Vaughan) are in
+10-column fields with three decimals. The terms "proportion" and "per
+cent" are used rather loosely in the codebooks.
+
+Miscellaneous Notes
+===================
+
+ o The variables that should be identical for all four years (the years
+   that infant mortality rate and marital fertility fall to certain
+   levels) are in fact sometimes different for some districts in some
+   years. In most cases, this appears to be because of a redrawing of
+   districts within a canton. This should perhaps make researchers
+   wary of comparing other variables in the affected cantons and
+   years. 
+
+ o The district labelled "Toggnbrg, Alt" in St. Gall (Canton 17) in
+   1930 may in fact be "Tablat". According to the documentation,
+   "Toggnbrg, Alt" was dropped in 1930. However, because of other
+   errors in the documentation for 1930, the districts were matched
+   based on the variables that were the same for all four years. There
+   was no match for Tablat, although there was a match for
+   "Toggnbrg, Alt". 
+
+ o Labor force participation statistics for 1870 and 1888 are based on
+   statistics of the proportion employed in "agriculture", "industry"
+   and "administration, commerce and transportation"; in 1910 and
+   1930, these are the proportions employed in primary, secondary
+   and tertiary industries. 
+
+ o According to Francine Vanderwalle's notes, all birth and
+   mortality statistics include stillbirths. 
+
+ o Draftees are (all?) 18-year-old men. 
+
+Availability of Data and Codebooks
+==================================
+
+All of the data and codebooks, as well as these notes and the list of
+common variables, are provided in DOS format in a zipped archive.
+
+The archive contains the following files:
+
+   swvars.txt  List of common variables
+   sw1870.dat  Data for 1870
+   sw1888.dat  Data for 1888
+   sw1910.dat  Data for 1910
+   sw1930.dat  Data for 1930
+   sw1870.cbk  Codebook for 1870
+   sw1888.cbk  Codebook for 1888
+   sw1910.cbk  Codebook for 1910
+   sw1930.cbk  Codebook for 1930
+   readme      This file
+
+
+Key Reference
+=============
+
+Vanderwalle, Francine. "Migration and Fertility in Ticino". In 
+Population Studies, vol. 29, 1975. pp. 447-462. 
+
+If you have questions or comments about the data, and especially if you
+have any additional information about the data, send e-mail to: 
+
+Barbara Vaughan 
+bvaughan@opr.princeton.edu
+

@@ -1,0 +1,123 @@
+Switzerland 1910 Variable Descriptions 
+
+ V# NAME           LOCATION  #DEC.  DESCRIPTION                                
+ -- ------------   --------  -----  ----------------------------------         
+  4 IF               1- 10       3  Index of total fertility                   
+  5 IG              11- 20       3  Index of marital fertility                 
+  6 IH              21- 30       3  Index of unmarried fertility               
+  7 IM              31- 40       3  Ratio of the index of marital fertility    
+                                       to index of total fertility             
+  8 PROT            41- 50       3  % Protestant                               
+  9 CATH            51- 60       3  % Catholic                                 
+ 10 ISRA            61- 70       3  % Jewish                              
+ 11 GER             71- 80       3  % German                                   
+ 12 FR              81- 90       3  % French                                   
+ 13 ITA             91-100       3  % Italian                                  
+ 14 ROM            101-110       3  % Romansh                                          
+ 15 ED1            111-120       3  % with high grade in draftees' exam
+                                      (average for 1909, 1910 and 1911)
+ 16 ED2            121-130       3  % with low grade in draftees' exam 
+                                      (average for 1909, 1910 and 1911)
+ 17 ED3            131-140       3  % draftees with > primary educ.
+                                      (average for 1909, 1910 and 1911)
+ 18 SINGL1         141-150       3  % women 20-24 who are single               
+ 19 SINGL2         151-160       3  % women aged 45-49 who are single          
+ 20 MORT           161-170       3  Infant Mortality Rate                      
+ 21 DECM10         171-180       3  Yr of decline in IMR of 10%                 
+ 22 DECM50         181-190       3  Yr of decline in IMR of 50%                 
+ 23 DECM.1         191-200       3  Yr of decline in IMR to  .100          
+ 24 DECIG10        201-210       3  Yr of decline in Ig of 10%                 
+ 25 DECIG.6        211-220       3  Yr of decline in Ig to  .600          
+ 26 WL.WL65        221-230       3  Prop. women 15-64 gainfully employed
+ 27 WLEXAGR.W65    231-240       3  Prop. F 15-64 employed outside agric.
+ 28 ALT.1          241-250       3  % living at <500 metres altitude              
+ 29 ALT.2          251-260       3  % living at 50-999 metres altitude           
+ 30 ALT.3          261-270       3  % living at 1000+ metres altitude            
+ 31 MAGR           271-280       3  Proportion male LF in agriculture            
+ 32 MIND           281-290       3  Proportion male LF in industry               
+ 33 WAGR           291-300       3  Proportion female LF in agriculture            
+ 34 WIND           301-310       3  Proportion female LF in industry               
+ 35 PROPWAGR       311-320       3  Proportion agriculture workers who         
+                                       are women                               
+ 36 PROPWIND       321-330       3  Proportion industrial workers who are      
+                                       women                                   
+ 37 PROPWOTH       331-340       3  Proportion workers in tetiary industries     
+                                       who are women                           
+ 38 PROPWTO        341-350       3  Proportion total labor force who are       
+                                       women                                   
+ 39 TAGR           351-360       3  Proportion of total labor force in         
+                                       agriculture                             
+ 40 TIND           361-370       3  Proportion of total labor force in         
+                                       industry                                
+
+Note: Variables 41-45 are from 1905 census of "Enterprises" 
+
+ 41 ENTERPR        371-380       3  Proportion of businesses to population
+ 42 COTTENTERPR    381-390       3  Proportion of enterprises that are         
+                                       cottage (see V59)                       
+ 43 AGRENTERPR     391-400       3  Proportion of enterprises that are         
+                                       agricultural                            
+ 44 IND.ENTERPR    401-410       3  Proportion of enterprises that are         
+                                       industrial                              
+ 45 COMM.ENTRPR    411-420       3  Proportion of enterprises that are         
+                                       in commerce               
+ 46 TRANS.ENTERPR  421-430       3  Proportion of enterprises that are         
+                                       transportation                          
+ 47 ADM.ENTERPR    431-440       3  Proportion of enterprises that are         
+                                       in public administration
+ 48 HOTEL.ENTERPR  441-450       3  Proportion of enterprises that are hotel   
+ 49 WCOTTAGE       451-460       3  Proportion of women 15-64 in cottage
+                                       industries
+ 50 SEX1900        461-470       3  Overall sex ratio in 1900                  
+ 51 CBR            471-480       3  Crude birth rate                           
+ 52 CDR            481-490       3  Crude death rate                           
+ 53 CMR            491-500       3  Crude migration rate 
+ 54 NGR            501-510       3  Crude growth rate                        
+
+Note: The rates in variables 51-54 are computed using births, deaths and migrations
+from 1900 to 1910. The denominators are the average of the populations in 1900 and
+1910. 
+
+ 55 TGR            511-520       3  Total growth rate                          
+ 56 SEX1910        521-530       3  Overall sex ratio in 1910                  
+ 57 BORNCOM        531-540       3  Proportion living in commune of birth  
+ 58 BORNFOR        541-550       3  Proportion born in a foreign country       
+ 59 COTTIND        551-560       3  Proportion cottage industries (see V42)    
+ 60 SIZHOLD        561-570       3  Average size of holding                    
+ 61 SIZLOT         571-580       3  Average size of a lot                      
+?62 TOTHOLD        581-590       3  ?                                          
+ 63 PRFIELD        591-600       3  Proportion of land in fields               
+ 64 PRMEADO        601-610       3  Proportion of land in meadows              
+ 65 PRVINE         611-620       3  Proportion of land in vines                
+ 66 PRMAGR         621-630       3  Proportion males in agriculture            
+ 67 PRMIND         631-640       3  Proportion males in industry               
+ 68 PRWAGR         641-650       3  Proportion women in agriculture            
+ 69 PRWIND         651-660       3  Proportion women in industry               
+ 70 PRAGRIC        661-670       3  Proportion in agriculture                  
+ 71 PRIND          671-680       3  Proportion in industry                     
+ 72 WAGRIENT       681-690       3  Percent of women in agriculture in         
+                                       enterprises                             
+ 73 WINDENT        691-700       3  Percent of women in industry in            
+                                       enterprises                             
+ 74 WLFENT         701-710       3  Percent of women in labor force who are    
+                                       in enterprises                          
+
+Note: Variables 59 through 74 are not described in the typed codebooks provided by
+Francine Vanderwalle. It is possible that the descriptions here were guesses based on
+the variable names. 
+
+
+ 75 TRANSP         711-720       3  Percent of labor force in transportation   
+ 76 ADMINI         721-730       3  Percent of labor force in public service  
+ 77 COMBINE        731-740       3  Percent of labor force in transportation & 
+                                       public service          
+ 78 LABEL          741-750          District label 
+    Canton key     752-753          Unique key for canton
+    Dist. key      754-755          Unique key for district
+    Canton         757-765          Canton Name
+    District       766-780          District Name
+                                                                               
+                                                                               
+(11-17-83)               
+ revised 4-94 B. Vaughan
+

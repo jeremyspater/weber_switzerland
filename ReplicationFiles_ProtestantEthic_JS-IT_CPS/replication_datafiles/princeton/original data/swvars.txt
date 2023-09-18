@@ -1,0 +1,108 @@
+Switzerland Table of Common Variables 
+
+The following table shows the names and numbers of variables that are available for
+various years in the Switzerland socio-economic data files. This table was prepared
+by Beverly Harris in November, 1983. The list is not complete and notes in the
+codebooks and other documentation should be consulted as well.
+
+   1870             1888             1910             1930                     
+-----------      -----------      -----------      ----------                  
+28 TAGRIC        17 TAGRIC        39 TAGR          17 TAGR                     
+29 TIND          18 TIND          40 TIND          19 TIND                     
+20 WAGRIC        23 WAGRIC        35 PROPWAGR      29 PROPWWAGR                
+21 WIND          24 WIND          36 PROPWIND      30 PROPWIND                 
+23 WOLAFOR       28 WOLABFOR      38 PROPWTO       28 PROPWTO                  
+45 ED1  *        34 GRADE1        15 ED1           38 ED1 *
+46 ED2  *        35 GRADE5        16 ED2           39 ED2 *                    
+47 ED3  *        36 USCHOOL       17 ED3           40 ED3 *                    
+51 MORT          22 INFMORT       20 MORT          32 MORT                     
+52 SEXRATIO      45 SEXRATIO      50 SEX1900 or    41 SEXRAT                   
+                                  56 SEX1910                                   
+ 8 PROTES         8 PROTES         8 PROT          10 PROT  
+ 9 CATHOL         9 CATHOL         9 CATH          11 CATH  
+10 SINGLE24      10 SINGLE24      18 SINGL1         8 SINGLE1 
+11 SINGLE49      11 SINGLE49      19 SINGL2         9 SINGLE2
+16 GERMAN        29 GERMAN        11 GER           12 GER   
+17 FRENCH        30 FRENCH        12 FR            13 FR    
+18 ITALIAN       31 ITALIAN       13 ITA           14 ITA   
+19 ROMANS        32 ROMANS        14 ROM           15 ROM   
+40 DECM10        40 DECLIM01      21 DECM10        33 DECM10                   
+41 DECM50        41 DECLIN05      22 DECM50        34 DECM50                   
+42 DECM.1        42 DECLIM00      23 DECM.1        35 DECM.1                   
+43 DECI10        43 DECLIG10      24 DECIG10       36 DECIG10                  
+44 DECI.6        44 DECLIG6       25 DECIG.6       37 DECIG.6                  
+24 MAGRIC        12 MAGRIC        31 MAGR 
+25 MIND          13 MIND          32 MIND 
+48 LOWALT        37 LOWALT        28 ALT.1                                     
+49 ALT50         38 ALT500        29 ALT.2                                     
+50 ALT1000       39 ALT1000       30 ALT.3                                     
+                 46 BORNCOM       57 BORNCOM       42 BORNCOM                  
+                 47 BORNFOR       58 BORNFOR       43 BORNFOR                  
+30 TOCTA         19 TCOMM +                                                    
+                 20 TTRANSP +                                                  
+                 21 TADMIN                                                     
+31 TOTEXTIL                                                                    
+32 TOFABRIC                                                                    
+33 TOSERVT                                                                     
+34 FAGRIC                                                                      
+35 FIND                                                                        
+36 FCTA                                                                        
+37 FTEXTIL                                                                     
+38 FFABRIC                                                                     
+39 FSERVT                                                                      
+                 25 WCOMM                                                      
+                 26 WTRANSP                                                    
+                 27 WADMIN                                                     
+                 33 PROPTOT                                                    
+                                  10 ISRA                                      
+                                  26 WL.W65                                    
+                                  27 WLEXAGR.W65                               
+                                                   23 WL.59                    
+                                                   24 WLAGR.59                 
+                                                   25 WLIND.59                 
+                                                   26 WL3RD.59                 
+                                  37 PROPWOTH      31 PROPW3RD                 
+                                  41 ENTERPR                                   
+                                  42 COTTENTERPR                               
+                                  43 AGRENTERPR                                
+                                  44 IND.ENTERPR                               
+                                  45 COMM.ENTERPR                              
+                                  46 TRANS.ENTERPR                             
+                                  47 ADM.ENTERPR                               
+                                  48 HOTEL.ENTERPR                             
+                                  49 WCOTTAGE                                  
+                                  51 CBR                                       
+                                  52 CDR                                       
+                                  53 CMR                                       
+                                  54 NGR                                       
+                                  55 TGR                                       
+                                  59 COTTIND                                   
+                                  60 SIZHOLD                                   
+                                  61 SIZLOT                                    
+                                  62 TOTHOLD                                   
+                                  63 PRFIELD                                   
+                                  64 PRMEADO                                   
+                                  65 PRVINE                                    
+                                  66 PRMAGR                                    
+                                  67 PRMIND                                    
+                                  68 PRWAGR                                    
+                                  69 PRWIND                                    
+                                  70 PRAGRIC                                   
+                                  71 PRIND                                     
+                                  72 WAGRIENT                                  
+                                  73 WINDENT                                   
+                                  74 WLFENT                                    
+                                  75 TRANSP                                    
+                                  76 ADMINI                                    
+                                  77 COMBINE                                   
+                                                   16 INDEP LABOR              
+                                                   18 INDEP AGREC              
+                                                   20 INDEPIND                 
+                                                   21 T3RDSECTOR               
+                                                   22 INDEP3RDSECTOR           
+                                                   27 INDEPWLABOR              
+
+* See notes in codebooks.                                                      
+                                                                               
+(8-3-83)                                                                    
+

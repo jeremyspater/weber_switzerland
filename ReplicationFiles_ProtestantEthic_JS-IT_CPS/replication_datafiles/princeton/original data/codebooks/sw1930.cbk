@@ -1,0 +1,64 @@
+Switzerland 1930 Variable Descriptions 
+
+ V# NAME           LOCATION  #DEC.  DESCRIPTION                                
+ -- ------------   --------  -----  -------------------------------            
+  4 IF               1- 10       3  Index of total fertility                   
+  5 IG              11- 20       3  Index of marital fertility                 
+  6 IH              21- 30       3  Index of unmarried fertility               
+  7 IM              31- 40       3  Ratio of the index of marital fertility    
+                                       to index of total fertility             
+  8 SINGLE1         41- 50       3  Proportion women 20-24 who are single      
+                                      (%/100)                                  
+  9 SINGLE2         51- 60       3  Proportion women 45-49 who are single      
+                                      (%/100)                                  
+ 10 PROT            61- 70       3  % Protestant                               
+ 11 CATH            71- 80       3  % Catholic                                 
+ 12 GER             81- 90       3  % German                                   
+ 13 FR              91-100       3  % French                                   
+ 14 ITA            101-110       3  % Italian                                  
+ 15 ROM            111-120       3  % Romansh                                          
+ 16 INDEP LABOR    121-130       3  Prop. self-employed in LF
+ 17 TAGR           131-140       3  Proportion of labor force in agriculture   
+ 18 INDEP AGREC    141-150       3  Prop. self-employed in agric. LF
+ 19 TIND           151-160       3  Prop. LF in industry
+ 20 INDEPIND       161-170       3  Prop. self-employed in indust. LF
+ 21 T3RDSECTOR     171-180       3  Prop. LF in third sector
+ 22 INDEP3RDSECTOR 181-190       3  Prop. self-employed in third sector LF
+ 23 WL.59          191-200       3  Prop. women 15-59 gainfully employed
+ 24 WLAGR.59       201-210       3  Prop. F 15-59 employed in agric.
+ 25 WLIND.59       211-220       3  Prop. F 15-59 employed in industry
+ 26 WF3RD.59       221-230       3  Prop. F 15-59 employed in 3rd sector
+ 27 INDEP WLABOR   231-240       3  Prop. self-employed in F LF
+ 28 PROPWTO        241-250       3  Proportion female in total labor force      
+ 29 PROPWWAGR      251-260       3  Proportion female in agric. LF
+ 30 PROPWIND       261-270       3  Proportion female in indust. LF              
+ 31 PROPW3RD       271-280       3  Proportion female in the 3rd sector LF
+ 32 MORT           281-290       3  Infant Mortality Rate                      
+
+Note: Infant mortality based on births and deaths for 1926-1930. Statistics not
+available by district after 1930. 
+
+ 33 DECM10         291-300       3  Yr of decline of IMR by 10%                 
+ 34 DECM50         301-310       3  Yr of decline of IMR by 50%                 
+ 35 DECM.1         311-320       3  Yr of decline of IMR to .100             
+ 36 DECIG10        321-330       3  Yr of decline of Ig by 10%                 
+ 37 DECIG.6        331-340       3  Yr of decline of Ig to .600             
+
+Note: The education values are those for 1910 
+
+ 38 ED1            341-350       3  % with high grade in draftees' exam
+ 39 ED2            351-360       3  % with low grade in draftees' exam
+ 40 ED3            361-370       3  % draftees with > primary educ.
+ 41 SEXRAT         371-380       3  Sex Ratio                              
+ 42 BORNCOM        381-390       3  % living in commune of birth           
+ 43 BORNFOR        391-400       3  % born in foreign country                  
+ 44 LABEL          401-410          District label  
+    Canton key     412-413          Unique key for canton
+    Dist. key      414-415          Unique key for district
+    Canton         417-425          Canton Name
+    District       426-440          District Name
+                                                                               
+                                                                               
+(11-17-83)                            -2-                                      
+ Revised 4-94 B. Vaughan
+
